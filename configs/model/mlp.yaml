@@ -1,0 +1,6 @@
+# configs/model/mlp/yaml
+_target_: src.models.mlp.MLP
+input_dim: 784
+hidden_dims: [512, 256]
+output_dim: 10
+dropout_rate: 0.2

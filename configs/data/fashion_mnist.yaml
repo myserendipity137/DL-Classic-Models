@@ -1,0 +1,7 @@
+# configs/data/fashion_mnist.yaml
+_target_: src.data.fashion_mnist.get_dataloaders
+data_dir: ${hydra:runtime.cwd}/data
+batch_size: 64
+num_workers: 4
+pin_memory: true
+train_val_split: [55000, 5000]

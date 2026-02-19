@@ -1,0 +1,10 @@
+# configs/config.yaml
+defaults:
+  - data: fashion_mnist
+  - model: mlp
+  - train: default
+  - _self_
+
+# Global Parameters
+project_name: "DL-Classic-Models"
+seed: 42
