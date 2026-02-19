@@ -22,13 +22,4 @@ build/
 *.onnx
 *.safetensors
 
-data/
-datasets/
-outputs/
-logs/
-wandb/
-runs/
-results/
-multirun/
-
 .DS_Store
